@@ -9,4 +9,4 @@ const page = await browser.newPage();
 await page.goto();
 //closing the browser
 await browser.close();
-})
+})();
